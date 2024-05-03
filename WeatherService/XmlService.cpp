@@ -1,5 +1,4 @@
 #include "XmlService.h"
-#include "pugixml.hpp"
 
 using namespace pugi;
 Weather XmlService::getWeather(std::string s)

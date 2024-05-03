@@ -1,6 +1,8 @@
 ﻿#include "Weather.h"
+#include "XmlService.h"
 
 int main()
 {
-   cout << "Hello World!\n";
+	XmlService xs;
+	Weather w = xs.getWeather("weather.xml");
 }
